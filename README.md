@@ -72,7 +72,7 @@ Simple background color animation with keyframes
       -webkit-animation-fill-mode: backwards;
       animation-fill-mode: backwards; }
 
-## How launch Application ? 
+## How to launch Application ? 
 
 ```
   gem install middleman
