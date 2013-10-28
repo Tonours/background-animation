@@ -20,29 +20,7 @@ Simple background color animation with keyframes
 ### CSS
     <!-- Generated code -->
     @-webkit-keyframes bgcolor {
-    0% {
-      background: #69d2e7; }
-
-    20% {
-      background: #69d2e7; }
-
-    40% {
-      background: #a7dbd8; }
-
-    60% {
-      background: #e0e4cc; }
-
-    80% {
-      background: #f38630; }
-
-    100% {
-      background: #fa6900; }
-    }
-    @keyframes bgcolor {
       0% {
-        background: #69d2e7; }
-
-      20% {
         background: #69d2e7; }
 
       40% {
@@ -56,6 +34,25 @@ Simple background color animation with keyframes
 
       100% {
         background: #fa6900; } 
+    }
+
+    @keyframes bgcolor {
+      0% {
+        background: #69d2e7; }
+
+      /* line 30, /Users/tonours/work/Perso/background-transition/source/stylesheets/utils/_mixins.scss */
+      40% {
+        background: #a7dbd8; }
+
+      /* line 30, /Users/tonours/work/Perso/background-transition/source/stylesheets/utils/_mixins.scss */
+      60% {
+        background: #e0e4cc; }
+
+      80% {
+        background: #f38630; }
+
+      100% {
+        background: #fa6900; }
       }
 
     body {
