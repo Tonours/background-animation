@@ -1,0 +1,12 @@
+---
+title: Background Transition
+---
+
+%h1
+  Background transition
+
+%p
+  Simple animation mixin... a bit useless :-) 
+%pre
+  $colors: #69D2E7, #A7DBD8, #E0E4CC, #F38630, #FA6900;
+  @include background-transition('bgcolor', $colors, 'body', '20s', 'ease-in', 'infinite', 'alternate');

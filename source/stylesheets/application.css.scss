@@ -1,0 +1,14 @@
+@import "compass";
+@import "compass/reset";
+
+@import "utils/mixins";
+
+@import "partials/layout";
+
+// ==========================================================================
+// Exemple of use on Body
+// ==========================================================================
+
+$colors: #69D2E7, #A7DBD8, #E0E4CC, #F38630, #FA6900;
+
+@include background-transition('bgcolor', $colors, 'body', '20s', 'ease-in', 'infinite', 'alternate');
