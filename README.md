@@ -24,34 +24,34 @@ Simple background color animation with keyframes
       0% {
         background: #69d2e7; }
 
-      40% {
+      25% {
         background: #a7dbd8; }
 
-      60% {
+      50% {
         background: #e0e4cc; }
 
-      80% {
+      75% {
         background: #f38630; }
 
       100% {
         background: #fa6900; } 
-    }
+      }
 
     @keyframes bgcolor {
       0% {
         background: #69d2e7; }
 
-      40% {
+      25% {
         background: #a7dbd8; }
 
-      60% {
+      50% {
         background: #e0e4cc; }
 
-      80% {
+      75% {
         background: #f38630; }
 
       100% {
-        background: #fa6900; }
+        background: #fa6900; } 
       }
 
     body {
