@@ -24,20 +24,13 @@
       $nb-colors: length($colors);
       $percentage: 100% / $nb-colors;
       $percentage: $percentage * $i;
-      @if $i == 1{
-        0%{
-          background: nth($colors, 1);
-        }
-      } @elseif $i == $nb-colors{
-        100%{
-          background: nth($colors, $nb-colors);
-        }
+      @if $i == 1 {
+        $percentage: $percentage * ($i - 1);
       }
-      @if $i != $nb-colors{
-        #{round($percentage)}{
+        #{$percentage}{
           background: nth($colors, $i);
         }
-      }
+      
     }
   }
 
