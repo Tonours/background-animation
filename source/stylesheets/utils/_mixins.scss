@@ -21,15 +21,13 @@
 @mixin background-transition($name, $colors, $container, $duration, $timing: "", $iteration: "", $direction: ""){
   @include keyframes($name) {
     @for $i from 1 through length($colors){
-      $nb-colors: length($colors);
+      $nb-colors: length($colors) - 1;
       $percentage: 100% / $nb-colors;
-      $percentage: $percentage * $i;
-      @if $i == 1 {
-        $percentage: $percentage * ($i - 1);
+      $percentage: $percentage * ($i - ($i / $i));
+      $percentage: round($percentage);
+      #{$percentage}{
+        background: nth($colors, $i);
       }
-        #{$percentage}{
-          background: nth($colors, $i);
-        }
       
     }
   }
