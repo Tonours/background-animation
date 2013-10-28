@@ -17,6 +17,7 @@ Simple background color animation with keyframes
     // @include background-transition($name, $colors, $container, $duration, $timing, $iteration, $duration);
     @include background-transition('bgcolor', $colors, 'body', '20s', 'ease-in', 'infinite', 'alternate');
 
+
 ### CSS
     <!-- Generated code -->
     @-webkit-keyframes bgcolor {
@@ -40,11 +41,9 @@ Simple background color animation with keyframes
       0% {
         background: #69d2e7; }
 
-      /* line 30, /Users/tonours/work/Perso/background-transition/source/stylesheets/utils/_mixins.scss */
       40% {
         background: #a7dbd8; }
 
-      /* line 30, /Users/tonours/work/Perso/background-transition/source/stylesheets/utils/_mixins.scss */
       60% {
         background: #e0e4cc; }
 
