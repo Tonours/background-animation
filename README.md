@@ -74,12 +74,13 @@ Simple background color animation with keyframes
 
 ## How launch Application ? 
 
-### UNIX
+```
   gem install middleman
   git clone https://github.com/Tonours/background-transition.git
   cd background-transition.git
   bundle install
   middleman server
+```
 
 
 
