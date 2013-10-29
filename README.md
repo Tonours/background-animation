@@ -13,8 +13,8 @@ Simple background color animation with keyframes
     $colors: #69D2E7, #A7DBD8, #E0E4CC, #F38630, #FA6900;
     
     // Enable mixin
-    // How use : 
-    // @include background-transition($name, $colors, $container, $duration, $timing, $iteration, $duration);
+    // How to use : 
+    // @include background-transition($name, $colors, $container, $duration, $timing, $iteration, $direction);
     @include background-transition('bgcolor', $colors, 'body', '20s', 'ease-in', 'infinite', 'alternate');
 
 
