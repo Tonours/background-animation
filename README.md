@@ -4,6 +4,10 @@ Simple background color animation with keyframes
 
 **Still in beta**  
 
+#### Live Demo :
+
+Example : http://codepen.io/Tonours/pen/Ehfxd
+
 
 ## How it works
 ### SCSS
