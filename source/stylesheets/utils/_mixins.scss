@@ -33,6 +33,7 @@
   }
 
   #{$container}{
+    background: nth($colors, 1);
     animation-name: unquote($name);
     animation-duration: unquote($duration);
     -webkit-animation-name: unquote($name);
