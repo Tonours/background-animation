@@ -1,11 +1,11 @@
-# Background Transition
+# Background Animation
 
 Simple background color animation with keyframes
 
 **Still in beta**  
 
 
-## How it's work
+## How it works
 ### SCSS
     @import "mixins";
         
@@ -14,8 +14,8 @@ Simple background color animation with keyframes
     
     // Enable mixin
     // How to use : 
-    // @include background-transition($name, $colors, $container, $duration, $timing, $iteration, $direction);
-    @include background-transition('bgcolor', $colors, 'body', '20s', 'ease-in', 'infinite', 'alternate');
+    // @include background-animation($name, $colors, $container, $duration, $timing, $iteration, $direction);
+    @include background-animation('bgcolor', $colors, 'body', '20s', 'ease-in', 'infinite', 'alternate');
 
 
 ### CSS
@@ -73,7 +73,7 @@ Simple background color animation with keyframes
 ```
   gem install middleman
   git clone https://github.com/Tonours/background-transition.git
-  cd background-transition.git
+  cd background-animation.git
   bundle install
   middleman server
 ```
